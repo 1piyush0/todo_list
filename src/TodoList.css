@@ -1,0 +1,67 @@
+.todo-list {
+    max-width: 500px; /* Increased max-width for better readability */
+    margin: 20px auto; /* Added margin for better centering */
+    padding: 20px;
+    background-color: #ffffff; /* Changed background color to white */
+    border-radius: 12px; /* Increased border radius for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increased box shadow for a subtle lift */
+  }
+  
+  .add-task {
+    display: flex;
+    align-items: center; /* Centered the input and button vertically */
+    margin-bottom: 20px;
+  }
+  
+  .add-task input {
+    flex: 1;
+    padding: 10px; /* Increased padding for better input field appearance */
+    border: 2px solid #007bff; /* Changed border color to blue */
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none; /* Removed default outline */
+  }
+  
+  .add-task button {
+    padding: 10px 20px; /* Increased padding for better button appearance */
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition for smoother hover effect */
+  }
+  
+  .add-task button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px; 
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task button:hover {
+    background-color: #c82333; 
+  }
+  
