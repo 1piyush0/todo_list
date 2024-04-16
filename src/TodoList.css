@@ -1,40 +1,40 @@
 .todo-list {
-    max-width: 500px; /* Increased max-width for better readability */
-    margin: 20px auto; /* Added margin for better centering */
+    max-width: 500px; 
+    margin: 20px auto; 
     padding: 20px;
-    background-color: #ffffff; /* Changed background color to white */
-    border-radius: 12px; /* Increased border radius for a softer look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increased box shadow for a subtle lift */
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .add-task {
     display: flex;
-    align-items: center; /* Centered the input and button vertically */
+    align-items: center; 
     margin-bottom: 20px;
   }
   
   .add-task input {
     flex: 1;
-    padding: 10px; /* Increased padding for better input field appearance */
-    border: 2px solid #007bff; /* Changed border color to blue */
+    padding: 10px; 
+    border: 2px solid #007bff; 
     border-radius: 8px;
     font-size: 16px;
-    outline: none; /* Removed default outline */
+    outline: none;
   }
   
   .add-task button {
-    padding: 10px 20px; /* Increased padding for better button appearance */
+    padding: 10px 20px;
     border: none;
     border-radius: 8px;
     background-color: #007bff;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Added transition for smoother hover effect */
+    transition: background-color 0.3s ease;
   }
   
   .add-task button:hover {
-    background-color: #0056b3; /* Darker shade of blue on hover */
+    background-color: #0056b3;
   }
   
   ul {
